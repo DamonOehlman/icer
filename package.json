@@ -1,0 +1,27 @@
+{
+  "name": "icer",
+  "version": "1.0.0",
+  "description": "A convention over configuration approach to setting iceServers for WebRTC use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gendocs": "gendocs > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/icer.git"
+  },
+  "keywords": [
+    "webrtc",
+    "ice"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/icer/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/icer",
+  "devDependencies": {
+    "rtc-core": "^4.0.0"
+  }
+}
