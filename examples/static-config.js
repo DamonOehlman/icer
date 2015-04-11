@@ -14,4 +14,5 @@ icer(function(err, iceServers) {
   }
   
   pc = new RTCPeerConnection({ iceServers: iceServers });
+  console.log('created pc: ', pc);
 });
