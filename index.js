@@ -22,6 +22,15 @@
   __DYNAMIC CONFIGURATION__:
   
   <<< examples/dynamic-config.js
+  
+  ## Why?
+  
+  After reading the examples, you are probably asking yourself why you would
+  bother using `icer`.  I think that is a reasonable question.  I think the
+  main reason to consider using `icer` when building your WebRTC enabled
+  application is that you will have a flexible mechanism for both static
+  and dynamic iceServers without modifying your code.
+  
 **/
 module.exports = function(opts) {
   // look for iceServers and ice within opts

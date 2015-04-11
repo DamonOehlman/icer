@@ -65,6 +65,14 @@ icer(function(err, iceServers) {
 });
 ```
 
+## Why?
+
+After reading the examples, you are probably asking yourself why you would
+bother using `icer`.  I think that is a reasonable question.  I think the
+main reason to consider using `icer` when building your WebRTC enabled
+application is that you will have a flexible mechanism for both static
+and dynamic iceServers without modifying your code.
+
 ## License(s)
 
 ### ISC
