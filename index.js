@@ -27,7 +27,7 @@ module.exports = function(opts) {
   // look for iceServers and ice within opts
   var ice = (opts || {}).iceServers;
   
-  return function(callback) 
+  return function(callback) {
     // if ice is a function then call it with the initially provided opts
     if (typeof ice == 'function') {
       return ice(opts, callback);
