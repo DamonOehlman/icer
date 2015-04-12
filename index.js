@@ -42,6 +42,6 @@ module.exports = function(opts) {
       return ice(opts, callback);
     }
     
-    return callback(null, ice);
+    return callback(null, ice || []);
   };
 }
